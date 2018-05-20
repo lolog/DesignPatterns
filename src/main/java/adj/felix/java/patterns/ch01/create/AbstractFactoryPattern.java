@@ -1,9 +1,15 @@
 package adj.felix.java.patterns.ch01.create;
 
-/*
- * 
+/**
+ * <pre>
+ * ~~~~ <b>抽象工厂模式</b> ~~~~
+ * 抽象工厂模式与工厂方法模式的最大区别: 工厂方法模式针对的是一个产品等级结构;而抽象工厂模式则需要面对多个产品等级结构。
+ * 产品族: 位于不同产品等级结构中,功能相关联的产品组成的家族。
+ * </pre>
+ * @author adolf.felix
  */
 public class AbstractFactoryPattern {
+	
 	interface Cpu {
 		public void calculate();
 	}
