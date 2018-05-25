@@ -1,8 +1,11 @@
-002. 结构型模式
-	结构型模式关注类和对象的组合。继承的概念被用来组合接口和定义组合对象获得新功能的方式。
-	包含：
-		01) 工厂模式(Factory Pattern)
-		02) 抽象工厂模式(Abstract Factory Pattern)
-		03) 单例模式(Singleton Pattern)
-		04) 建造者模式(Builder Pattern)
-		05) 原型模式(Prototype Pattern)
+02. 结构型模式
+    结构型模式关注类和对象的组合。继承的概念被用来组合接口和定义组合对象获得新功能的方式。
+    包含：
+       1) 适配器模式(Adapter Pattern)
+	   2) 桥接模式(Bridge Pattern)
+	   3) 过滤器模式(Filter、Criteria Pattern)
+	   4) 组合模式(Composite Pattern)
+	   5) 装饰器模式(Decorator Pattern)
+	   6) 外观模式(Facade Pattern)
+	   7) 享元模式(Flyweight Pattern)
+	   8) 代理模式(Proxy Pattern)
